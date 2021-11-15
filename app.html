@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Future App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/dojo.css" />
+
+    <script
+      src="https://kit.fontawesome.com/c194b2ebba.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="app" class="container2">
+      <div id="home">
+        <img src="images/theRevnizer3.png" alt="Logo" />
+        <h2><a href="index.html#moreMe">More about me</a></h2>
+        <h1 id="about" class="dj-interview">My Future App</h1>
+      </div>
+
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav> -->
+
+      <div class="cont-nav nav navbar navbar-dark bg-dark">
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="navbar" id="nav-list">
+          <li class="home-page">
+            <a href="index.html#home"><i class="fas fa-home"> Home Page</i> </a
+            ><small>>> </small><span>||</span>
+          </li>
+          <li>
+            <a href="bootcamp.html">My Bootcamp</a><small>>> </small>
+            <span>|</span>
+          </li>
+          <li>
+            <a href="education.html">My Education </a><small>>> </small>
+            <span>|</span>
+          </li>
+          <li><a href="#app">My Future App </a><small>>> </small></li>
+          <li><a href="index.html#contact">Contact </a><small>>> </small></li>
+        </ul>
+      </div>
+
+      <div class="about">
+        <div>
+          <img src="images/django8.png" alt="logo" />
+        </div>
+        <div class="dango">
+          <h3>The Interview App</h3>
+          <p>
+            The purpose of this section is to show case a brief portion of the
+            application functionality of this portfolio with a data base; while
+            at the same time answering some basic questions about Django.
+          </p>
+        </div>
+      </div>
+
+      <div class="profile">
+        <h2 class="django-top">The Django Interview App</h2>
+        <div class="item-area">
+          <h3>Overview:</h3>
+          <p class="edu-section">
+            The interview app will be in a question-and-answer type format with
+            hopes to prepare the individual for a Django framework interview.
+            Although away question can be asked or answered the focus of this
+            app will be a Django Questionnaire Interview. This app will have a
+            backend, with one-to-many relationship, utilizing CRUD
+            functionalities.
+          </p>
+        </div>
+
+        <div class="profile">
+          <h2>TECHNOLOGIES</h2>
+          <div class="item-area">
+            <h3>Technologies/Skills/Tool</h3>
+            <ul>
+              <li>Python</li>
+              <li>Django</li>
+              <li>SQLite</li>
+              <li>CRUD</li>
+              <li>File Upload</li>
+              <li>Pilliow</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 id="table" class="django-top">Django Interview App & CRUD</h2>
+        <h3 class="h3-margin">Preview READ Table Output of Q & A with CRUD:</h3>
+        <!-- <div class="item-area"></div> -->
+        <div class="table-responsive bottom">
+          <table
+            class="
+              table
+              table-striped
+              table-bordered
+              table-sm
+              table-dark
+              table-condensed
+              mx-auto
+              w-auto
+            "
+          >
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Question</th>
+                <th>Answer</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>What is Django?</td>
+                <td>
+                  A backend server side Python framework; other frameworks
+                  Flask, Express & Larval
+                </td>
+                <td>
+                  <em class="badge badge-success">C</em>
+                  <em class="badge badge-warning">R</em>
+                  <em class="badge badge-secondary">U</em>
+                  <em class="badge badge-danger">D</em>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>What can you build with Django?</td>
+                <td>
+                  Anything, social network, e-commerce; Udemy, Instagram,
+                  dropbox, youtube; good for building API’s
+                </td>
+                <td>
+                  <em class="badge badge-success">C</em>
+                  <em class="badge badge-warning">R</em>
+                  <em class="badge badge-secondary">U</em>
+                  <em class="badge badge-danger">D</em>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Whats the difference Between a Project & App?</td>
+                <td>
+                  A Project is overall environment for a website, an app is a
+                  component of that project.
+                </td>
+                <td>
+                  <em class="badge badge-success">C</em>
+                  <em class="badge badge-warning">R</em>
+                  <em class="badge badge-secondary">U</em>
+                  <em class="badge badge-danger">D</em>
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>How do we initialize a project?</td>
+                <td>django-admin startproject name</td>
+                <td>
+                  <em class="badge badge-success">C</em>
+                  <em class="badge badge-warning">R</em>
+                  <em class="badge badge-secondary">U</em>
+                  <em class="badge badge-danger">D</em>
+                </td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>How do we initialize an app?</td>
+                <td>python manage.py startapp name</td>
+                <td>
+                  <em class="badge badge-success">C</em>
+                  <em class="badge badge-warning">R</em>
+                  <em class="badge badge-secondary">U</em>
+                  <em class="badge badge-danger">D</em>
+                </td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>What does the settings.py file do?</td>
+                <td>
+                  It’s the project configuration for database connections,
+                  configuring apps, and other commands to setup project
+                </td>
+                <td>
+                  <em class="badge badge-success">C</em>
+                  <em class="badge badge-warning">R</em>
+                  <em class="badge badge-secondary">U</em>
+                  <em class="badge badge-danger">D</em>
+                </td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>What are CSRF Tokens?</td>
+                <td>
+                  Used with forms, post or put request, to protect against
+                  cross-site forgery attacks.
+                </td>
+                <td>
+                  <em class="badge badge-success">C</em>
+                  <em class="badge badge-warning">R</em>
+                  <em class="badge badge-secondary">U</em>
+                  <em class="badge badge-danger">D</em>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="django-top">Django Interview Create Form</h2>
+        <br />
+        <div class="item-area">
+          <h3>Preview Create Form:</h3>
+          <br />
+          <div class="contact-container">
+            <div class="form-wrap">
+              <h1 class="large center">Create Question & Answer</h1>
+              <form>
+                <div class="user-msg">
+                  <label>Question</label>
+                  <textarea
+                    name="message"
+                    class="input"
+                    placeholder="Enter Question..."
+                  ></textarea>
+                </div>
+
+                <div class="user-msg">
+                  <label>Answer</label>
+                  <textarea
+                    name="message"
+                    class="input"
+                    placeholder="Enter Question..."
+                  ></textarea>
+                </div>
+
+                <div class="submit-btn">
+                  <button type="submit">Create</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="django-top">Django Interview Update/Delete Form</h2>
+        <br />
+        <div class="item-area">
+          <h3>Preview Update/Delete Form:</h3>
+          <br />
+          <div class="contact-container">
+            <div class="form-wrap">
+              <h1 class="large center">Update Question & Answer</h1>
+              <form>
+                <div class="user-msg">
+                  <label>Question</label>
+                  <textarea
+                    name="message"
+                    class="input"
+                    placeholder="Enter question-and-answer"
+                  >
+Should I update this Question?</textarea
+                  >
+                </div>
+
+                <div class="user-msg">
+                  <label>Answer</label>
+                  <textarea
+                    name="message"
+                    class="input"
+                    placeholder="Enter answer"
+                  >
+Since I updated the question the answer must also be updated to yes.</textarea
+                  >
+                </div>
+
+                <div class="submit-btn">
+                  <button type="submit">Update</button>
+                </div>
+                <h1 class="large center django-delete">
+                  <a href="">Delete</a>
+                </h1>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <h2 id="list">Django Interview Questions in List</h2>
+        <br />
+        <div class="item-area">
+          <h3>Preview READ List Output of Q & A:</h3>
+          <ol>
+            <li>
+              <strong>What is Django?</strong> Backend Python framework; other
+              frameworks Flask, Express Nodejs, PHP & Larval
+            </li>
+            <li>
+              <strong>What can you build with Django?</strong> Anything, social
+              network, e-commerce; Udemy, Instagram, dropbox, youtube; good for
+              building API’s
+            </li>
+            <li>
+              Whats the difference Between a Project & App? A Project is overall
+              environment for a website, an app is a component of that project.
+              One project can have many apps. Facebook.com is the project;
+              different app or part of facebook.com newsfeed, groups
+            </li>
+            <li>
+              How do we initialize a project? django-admin startproject name
+            </li>
+            <li>How do we initialize an app? python manage.py startapp name</li>
+            <li>
+              What does the settings.py file do? It’s the project configuration;
+              database connections, configuring apps, and other commands to
+              setup project
+            </li>
+            <li class="django-bottom">
+              What are CSRF Tokens? Used with forms, post or put request, to
+              protect against cross-site forgery attacks.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
