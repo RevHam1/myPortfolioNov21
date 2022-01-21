@@ -4,6 +4,11 @@
   background-color: black;
 }
 
+div .featured {
+  padding-top: -90;
+  padding-bottom: 0;
+}
+
 .cont-nav {
   position: sticky;
   top: -25px;

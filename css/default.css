@@ -4,8 +4,7 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
-
-body * {
+more2 body * {
   transition: 0.3s;
   /* background-color: black; */
 }
@@ -255,9 +254,11 @@ span {
 
 .image-size img {
   width: 100%;
-  /* width: max-content; */
-  /* width: auto; */
-  /* width: 320px; */
+}
+
+.image-size-1 {
+  width: 95%;
+  margin: 0 auto;
 }
 
 .image-size h3 {
@@ -271,11 +272,24 @@ span {
 
 .image-size .more2 {
   color: red;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.featured {
+  text-align: center;
+  color: white;
 }
 
 .image-size .more2 a {
   color: red;
   text-decoration: none;
+}
+
+.image-size .moreblue a {
+  color: slateblue;
+  text-decoration: underline;
 }
 
 .image-size p {
